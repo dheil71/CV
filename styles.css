@@ -1,6 +1,4 @@
-/* 16px = 100% = 1em
-we got the h1 font size by finding that 90px
- is what I want then 90/16= 562.5 then = 5.625em*/
+
 body {
     font-family: 'Varta';
     font-size: 1.5em;
@@ -10,10 +8,10 @@ body {
  }
 
 .top-container{
-    background-color: #EFFFFD;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 50px;
-}
+    }
 
  h1 {
  font-family: 'sacramento',cursive;
@@ -41,6 +39,11 @@ h3 {
      text-decoration: underline;
 }
 
+hr{
+    border-top: 10px dotted #EAF6F6;
+    width: 3%;
+
+}
 .top-cloud{
     position: absolute;
     right: 330px;
@@ -64,6 +67,8 @@ h3 {
     width: 200px;
 }
 
+
+
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
@@ -78,6 +83,7 @@ h3 {
   padding: 5px;
   background-color: #EFFFFD;
   border: 2px solid #C9EEFF;
+
 }
 
 .wood-skill{
@@ -88,7 +94,7 @@ h3 {
 
 .drawing-icon{
     float: right;
-    width: 50%;
+    width: 30%;
     margin-left: 30px;
 }
 
@@ -104,6 +110,52 @@ h3 {
         margin-right: 30px;
 }
 
+.in-touch{
+ font-size: 4rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+  background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.contact-me{
+ margin: 300px auto 100px auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container{
+     background-color: #66BFBF;
+     padding-bottom: 30px;
+     padding-top: 100px;
+}
+
 .footer-link{
     color: #11999E;
+    margin: 20px 20px 20px 20px;
+}
+
+.trade-mark{
+color: white;
 }
