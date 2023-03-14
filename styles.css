@@ -1,66 +1,74 @@
-
 body {
-    font-family: 'Varta';
-    color: #40514E;
+    font-family: 'Varta', sans-serif;
     font-size: 1.5em;
     text-align: center;
+    color: #40514E;
     margin: 0px;
     padding:0px;
  }
 
-.top-container{
-    background-color: #EAF6F6;
-    position: relative;
-    padding-top: 50px;
-    }
+a:hover {
+    color: #EAF6F6;
+}
+ p{
+ line-height: 2;
+ }
 
  h1 {
  font-family: 'sacramento',cursive;
  font-size: 5.625rem;
- margin: 100px auto 0 auto;
+ margin: 100px 0;
  color: #66BFBF;
-}
-
-.p-main{
-   text-align: justify;
-   margin: auto 75px auto 75px;
 }
 
  h2 {
  color: #66BFBF;
  font-size: 2.5rem;
  font-weight: normal;
-  padding-bottom: 10px;
+ padding-bottom: 10px;
 }
 
 h3 {
  color: #11999E
 }
 
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.p-main{
+   width: 50%;
+   margin: auto auto auto auto;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 50px;
+   }
+
 .pro {
      text-decoration: underline;
 }
 
-hr{
-    border-top: 10px dotted #EAF6F6;
-    width: 3%;
-
-}
 .top-cloud{
     position: absolute;
-    right: 330px;
-    top 10px;
+    right: 300px;
+    top 40px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 330px;
-    bottom: 550px;
+    left: 250px;
+    bottom: 300px;
 }
 
 .mountain{
-      max-width: 100%;
-      margin: 100px auto 100px auto;
+ max-width: 200%;
+     margin: 0;
 }
 
 .profile-pic{
@@ -69,7 +77,9 @@ hr{
     width: 200px;
 }
 
-
+.middle-container{
+ margin: 100px 0;
+}
 
 .skill-row{
     width: 50%;
@@ -85,31 +95,30 @@ hr{
   padding: 5px;
   background-color: #EFFFFD;
   border: 2px solid #C9EEFF;
-
 }
 
 .wood-skill{
     float: left;
     width: 25%;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .drawing-icon{
     float: right;
     width: 30%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .jen-photo{
     float: right;
-    width: 50%;
-    margin-left: 30px;
+    width: 30%;
+    margin-left: 20px;
 }
 
 .golf-icon{
     float: left;
-        width: 50%;
-        margin-right: 30px;
+    width: 30%;
+    margin-right: 20px;
 }
 
 .in-touch{
@@ -126,12 +135,11 @@ hr{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Varta', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-
 }
 
 .contact-me{
@@ -149,15 +157,22 @@ hr{
 }
 .bottom-container{
      background-color: #66BFBF;
-     padding-bottom: 30px;
-     padding-top: 100px;
+     padding: 50px 0 20px;
 }
 
+.contact-message{
+    width: 40%
+    margin: 40px auto 100px;
+}
 .footer-link{
     color: #11999E;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 20px;
+    font-family: 'Varta', sans-serif;
+    text-decoration: none;
 }
 
-.trade-mark{
-color: white;
+.copyright{
+color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
 }
